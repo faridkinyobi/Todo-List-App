@@ -2,12 +2,7 @@ import React from "react";
 import TextInput from "./components/TextInput";
 import { FiPlus, FiList, FiArchive, FiTrash2, FiCheck } from "react-icons/fi";
 import { useSelector, useDispatch } from "react-redux";
-import {
-    addList,
-    deletelist,
-    setShowCompleted,
-    toggleCompleted,
-} from "./redux/todoSlice";
+import { addList, deletelist, toggleCompleted } from "./redux/todoSlice";
 import { dataList } from "./redux/todoSlice";
 import { RootState } from "./redux/story";
 import { Toaster, toast } from "react-hot-toast";
